@@ -1,0 +1,13 @@
+# Force Linguist to detect Java as the primary language
+/src/main/java/** linguist-language=Java
+
+# Mark static UI files as vendored so they don't affect language stats
+/images/** linguist-vendored
+/assets/** linguist-vendored
+/static/** linguist-vendored
+/templates/** linguist-vendored
+
+# Optional: HTML files treated as documentation (won’t affect stats)
+*.html linguist-documentation
+*.css linguist-documentation
+*.js linguist-documentation
