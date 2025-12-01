@@ -1,29 +1,50 @@
-# Java source (ensure Java is recognized)
+# -------------------------------------
+# Force Java as primary language
+# -------------------------------------
 src/main/java/** linguist-language=Java
+*.java linguist-language=Java
 
-# Thymeleaf templates (HTML)
+# -------------------------------------
+# Thymeleaf Templates (HTML)
+# -------------------------------------
 src/main/resources/templates/** linguist-language=HTML
 *.html linguist-language=HTML
 
-# CSS and front-end assets
+# -------------------------------------
+# CSS Files
+# -------------------------------------
 src/main/resources/static/css/** linguist-language=CSS
-src/main/resources/static/** linguist-language=CSS
+*.css linguist-language=CSS
 
-# JavaScript files
+# -------------------------------------
+# JavaScript Files
+# -------------------------------------
 src/main/resources/static/js/** linguist-language=JavaScript
 *.js linguist-language=JavaScript
 
-# SQL files
-src/main/resources/**/*.sql linguist-language=SQL
+# -------------------------------------
+# SQL Files (Database Scripts)
+# -------------------------------------
+src/main/resources/**.sql linguist-language=SQL
 *.sql linguist-language=SQL
 
-# Properties files (config)
+# -------------------------------------
+# Properties Files
+# -------------------------------------
 *.properties linguist-language=Properties
 
-# Mark images and uploaded assets as vendored so they don't alter language percentages
+# -------------------------------------
+# Images & assets (should NOT affect language stats)
+# -------------------------------------
 /images/** linguist-vendored
 /assets/** linguist-vendored
-/static/images/** linguist-vendored
+/src/main/resources/static/images/** linguist-vendored
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
+*.svg linguist-vendored
 
-# Optional: Mark target/ build artifacts as vendored (do not count)
+# -------------------------------------
+# Ignore build/output folders from analysis
+# -------------------------------------
 target/** linguist-vendored
