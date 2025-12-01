@@ -83,22 +83,22 @@ server.port=2330[Optional] <br>
 ## 🖼️ Preview
 
 ### 🛒 Products / Inventory
-![Products](https://github.com/BhartiRai111/business-management/blob/main/images/272456901-0496f63a-f30c-4108-91a7-966bd37b2b54.png)
+![Products](https://github.com/BhartiRai111/business-management/assets/272456901-0496f63a-f30c-4108-91a7-966bd37b2b54.png)
 
 ### 🔐 Login Page
-![Login Page](https://github.com/BhartiRai111/business-management/blob/main/images/Login%20Page.png)
+![Login Page](https://github.com/BhartiRai111/business-management/assets/Login%20Page.png)
 
 ### 🧑‍💼 Admin Panel
-![Admin Panel](https://github.com/BhartiRai111/business-management/blob/main/images/Admin%20Panel.png)
+![Admin Panel](https://github.com/BhartiRai111/business-management/assets/Admin%20Panel.png)
 
 ### 👤 User Panel
-![User Panel](https://github.com/BhartiRai111/business-management/blob/main/images/User%20Panel.png)
+![User Panel](https://github.com/BhartiRai111/business-management/assets/User%20Panel.png)
 
 ### 📍 Locate Us Page
-![Locate Us](https://github.com/BhartiRai111/business-management/blob/main/images/Locate%20Us%20Page.png)
+![Locate Us](https://github.com/BhartiRai111/business-management/assets/Locate%20Us%20Page.png)
 
 ### ❌ Exception Page
-![Exception Page](https://github.com/BhartiRai111/business-management/blob/main/images/Exception%20Page.png)
+![Exception Page](https://github.com/BhartiRai111/business-management/assets/Exception%20Page.png)
 
 
 
