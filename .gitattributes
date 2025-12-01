@@ -1,13 +1,29 @@
-# Force Linguist to detect Java as the primary language
-/src/main/java/** linguist-language=Java
+# Java source (ensure Java is recognized)
+src/main/java/** linguist-language=Java
 
-# Mark static UI files as vendored so they don't affect language stats
+# Thymeleaf templates (HTML)
+src/main/resources/templates/** linguist-language=HTML
+*.html linguist-language=HTML
+
+# CSS and front-end assets
+src/main/resources/static/css/** linguist-language=CSS
+src/main/resources/static/** linguist-language=CSS
+
+# JavaScript files
+src/main/resources/static/js/** linguist-language=JavaScript
+*.js linguist-language=JavaScript
+
+# SQL files
+src/main/resources/**/*.sql linguist-language=SQL
+*.sql linguist-language=SQL
+
+# Properties files (config)
+*.properties linguist-language=Properties
+
+# Mark images and uploaded assets as vendored so they don't alter language percentages
 /images/** linguist-vendored
 /assets/** linguist-vendored
-/static/** linguist-vendored
-/templates/** linguist-vendored
+/static/images/** linguist-vendored
 
-# Optional: HTML files treated as documentation (won’t affect stats)
-*.html linguist-documentation
-*.css linguist-documentation
-*.js linguist-documentation
+# Optional: Mark target/ build artifacts as vendored (do not count)
+target/** linguist-vendored
